@@ -1,0 +1,9 @@
+[ {
+  "description" : "Macbook Pro M5",
+  "id" : 2,
+  "price" : 26500.0
+}, {
+  "description" : "Notebook Acer Aspire15",
+  "id" : 3,
+  "price" : 2499.0
+} ]
