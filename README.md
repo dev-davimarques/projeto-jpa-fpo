@@ -3,7 +3,7 @@
 Este projeto é uma aplicação Java interativa (CLI) para gerenciamento de Clientes e Produtos, integrada a um banco de dados relacional e com suporte a múltiplos formatos de exportação de relatórios.
 
 ## 📌 Assunto
-O sistema foi desenvolvido para demonstrar a aplicação prática de operações de adição e listage de Clientes e Produtos, utilizando persistência de dados com JPA/Hibernate e a implementação de padrões de projeto para geração de relatórios em formatos JSON e CSV.
+O sistema foi desenvolvido para demonstrar a aplicação prática de operações de adição e listagem de clientes e produtos, utilizando persistência de dados com JPA/Hibernate e a implementação de padrões de projeto para geração de relatórios em formatos JSON e CSV.
 
 ## 🛠 Tecnologias Utilizadas
 * **Java 25**: Utilizando as últimas funcionalidades da linguagem.
