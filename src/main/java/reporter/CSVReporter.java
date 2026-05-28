@@ -32,7 +32,6 @@ public class CSVReporter<T> implements Reporter{
              CSVPrinter printer = new CSVPrinter(out, format)) {
 
             for (T item : data) {
-                // Aplica a função para transformar o objeto (Client ou Product) em um array de objetos
                 printer.printRecord(rowMapper.apply(item));
             }
 

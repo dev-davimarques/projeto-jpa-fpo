@@ -19,7 +19,6 @@ public class JSONReporter<T> implements Reporter {
 
     @Override
     public void process() {
-        // Criação imutável usando o Builder do JsonMapper
         JsonMapper mapper = JsonMapper.builder()
                 .enable(SerializationFeature.INDENT_OUTPUT)
                 .build();
