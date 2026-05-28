@@ -62,7 +62,7 @@ void main() {
                     em.persist(novoCliente);
                     em.getTransaction().commit();
 
-                    IO.println("✅ Cliente cadastrado com sucesso!");
+                    IO.println("Cliente cadastrado com sucesso!");
                     break;
 
                 case 4:
@@ -77,7 +77,7 @@ void main() {
                     em.persist(novoProduto);
                     em.getTransaction().commit();
 
-                    IO.println("✅ Produto cadastrado com sucesso!");
+                    IO.println("Produto cadastrado com sucesso!");
                     break;
 
                 case 5:
