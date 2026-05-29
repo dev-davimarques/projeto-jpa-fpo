@@ -69,7 +69,6 @@ void main() {
                     IO.print("Digite a descrição do produto: ");
                     String descricao = scanner.nextLine();
                     IO.print("Digite o preço do produto (ex: 1500.50): ");
-                    // Captura a string e converte para double
                     double preco = Double.parseDouble(scanner.nextLine());
 
                     em.getTransaction().begin();
